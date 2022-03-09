@@ -1,0 +1,326 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
+/*-- NAVEGACIÓN --*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand img {
+    height: 80px;
+    width: auto;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f59b42;
+}
+
+/*-- FINAL NAVEGACIÓN --*/
+
+/*-- CABECERA --*/
+
+.cabecera {
+    background-image: url(imagenes/cabecera-foto1.jpg);
+    height: 970px;
+    background-position: center;
+    background-size: cover;
+}
+
+.cabecera-texto h1 {
+    margin-top: -550px;
+    color: #f59b42;
+    text-shadow: 2px 2px 2px black;
+    font-size: 67px;
+    position: static; 
+    z-index: 9000;
+}
+
+.cabecera-texto h3 {
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 405px
+}
+
+.boton {
+    margin-top: -720px;
+    border-width: 4px;
+    font-weight: 500;
+    background-color: #f59b42;
+    text-shadow: 2px 2px 2px black;
+}
+
+.boton:hover {
+    color: #f59b42;
+    text-shadow: 2px 2px 2px black;
+}
+/*-- FINAL CABECERA --*/
+
+/*-- INICIO --*/
+
+.inicio h2 {
+    color: #f59b42;
+    text-shadow: 2px 2px black;
+}
+
+#principal {
+    padding-left: 5%;
+    padding-top: 30px;
+    padding-right: 5%
+}
+
+#principal p {
+    text-align: left;
+}
+
+/*-- EQUIPO --*/
+
+.profile {
+    margin-bottom: 20px;
+    border: 6px solid white;
+}
+
+#iconos {
+    color: white;
+}
+
+#iconos:hover {
+    color: lightgray
+}
+
+/*-- FIN EQUIPO --*/
+
+/*-- ANUNCIOS --*/
+
+.col-md-12, col-lg-4, col-xl-3 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.imgnoticia {
+    margin-bottom: 10px;
+}
+
+.anuncio {
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    background-color: #212121;
+}
+
+.noticia {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border: 4px solid black;
+    border-top-width: 10px;
+    border-top-color: #ffCD68;
+    background-color: white;
+}
+
+.noticia:hover {
+    box-shadow: 10px 20px 1px 2px #121212;
+}
+
+.probar {
+    margin: 0 0 15px 15px;
+}
+/*-- FINAL ANUNCIOS --*/
+
+/*-- FIN INICIO --*/
+
+/*-- PRODUCTOS --*/
+
+.smario {
+    margin-top: 130px;
+    border: 5px solid white;
+}
+
+.textosmario {
+    margin-top: 130px;
+    border: 5px solid white;
+    padding: 10px 50px 0 50px;
+}
+
+.pacman {
+    margin-top: 50px;
+    border: 5px solid white;
+}
+
+.textopacman {
+    margin-top: 50px;
+    border: 5px solid white;
+    padding: 10px 50px 0 50px;
+}
+
+
+/*-- BREADCRUMBS --*/
+
+.breadcrumb {
+    background-color: #212121;
+    
+}
+
+/*-- FIN PRODUCTOS --*/
+
+/*-- BLOG --*/
+
+.entradablog {
+    border: 6px solid white;
+    background-color: #212121;
+    margin-bottom: 25px;
+}
+
+.entradablog p {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+/*-- FIN BLOG --*/
+
+/*-- FOOTER --*/
+
+.footer {
+    background-color: #1c1c1c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer h2 {
+    color: #f59b42;
+    text-shadow: 2px 2px black;
+}
+
+input:valid , textarea:valid{
+    border-color: gray;
+}
+input:invalid, textarea:invalid{
+    border-color: red;
+}
+
+/*-- FIN FOOTER --*/
+
+/*-- MIS BREAKPOINTS --*/
+/*-- Extra small devices (portrait phones, less than 576px) --*/
+@media (max-width: 575.98px) { 
+    .anuncio {
+        width: 100%;
+        margin: 0px 0px 0 0px;
+    }
+    
+    .cabecera-texto h1 {
+        font-size: 40px;
+        margin-top: -700px
+    }
+    
+    .cabecera-texto h3 {
+        font-size: 25px;
+    }
+    
+    .boton {
+        margin-top: -350px;
+        margin-bottom: 400px;
+    }
+    
+    .navbar-brand img {
+        width: 220px
+    }
+    
+    .textosmario {
+        margin-top: 50px;
+    }
+}
+
+/*-- Small devices (landscape phones, 576px and up) --*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .anuncio {
+        width: 100%;
+        padding-top: 20px;
+        
+    }
+    
+    #principal p {
+        text-align: left;
+    }
+}
+
+/*-- Medium devices (tablets, 768px and up) --*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .anuncio {
+        width: 100%;
+        margin: 0px 0px 0 0px;
+    }
+    
+    .cabecera-texto h1 {
+        font-size: 40px;
+        margin-top: -700px
+    }
+    
+    .cabecera-texto h3 {
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 25px;
+    }
+    
+    h4 {
+        font-size: 20px;
+    }
+    
+    .boton {
+        margin-top: -350px;
+        margin-bottom: 470px;
+    }
+    
+    .navbar-brand img {
+        width: 220px;
+    }
+    
+    #principal p {
+        text-align: justify;
+        font-size: 14px;
+    }
+}
+
+/*-- Large devices (desktops, 992px and up) --*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #principal p {
+        text-align: justify;
+        font-size: 13px;
+    }
+    
+    #principal h3 {
+        font-size: 23px;
+    }
+    
+    #principal h4 {
+        font-size: 20px;
+    }
+    
+    .boton {
+        margin-top: -500px;
+        margin-bottom: 200px;
+    }
+    
+    .cabecera-texto {
+        margin-bottom: -33px
+    }
+}
+
+/*-- Extra large devices (large desktops, 1200px and up) --*/
+@media (min-width: 1200px) { 
+    .anuncio {
+        width: 100%;
+    }
+    
+    #principal p {
+        text-align: justify;
+    }
+    
+}
